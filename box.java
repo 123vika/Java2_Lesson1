@@ -7,7 +7,6 @@ public class box {
     boolean can_apple=true;
     boolean can_orange=true;
 
-
     public box(String box_name) {
         this.box_name = box_name;
     }
@@ -23,7 +22,6 @@ public class box {
             can_apple=false;
         }
 
-
     }
 
     public float getWeight(){
@@ -34,8 +32,5 @@ public class box {
                 else{
                     return (float) 1.6*nameList.size();
                 }
-    };
-
-
-
+    }
 }
