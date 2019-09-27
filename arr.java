@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
-public class arr {
-
+public class arr{
 
       static public void change_array_place(String[] curr_array ,int first_place ,int second_place) {
         String  swap_local1;
@@ -13,7 +12,6 @@ public class arr {
         curr_array[second_place]=swap_local1;
 
      }
-
      static public  ArrayList arrToArrList(String[] curr_array){
         ArrayList<String> currList = new ArrayList<String>();
 
@@ -24,18 +22,12 @@ public class arr {
          System.out.println(currList);
 
         return currList;
-
      }
-
-
 
     public static void main(String [ ] args){
 
             ArrayList arrayList;
 
-
-
-   // {
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
         change_array_place(cars,1,2);
@@ -49,10 +41,8 @@ public class arr {
 
         arrayList=arrToArrList(cars);
 
-
         System.out.println(arrayList);
 
-       // fruit("apple");
 
         fruit fruit1 = new fruit("apple");
         fruit fruit2 = new fruit("apple");
@@ -76,13 +66,5 @@ public class arr {
         System.out.println(boxapple.getWeight());
         System.out.println(boxorange.getWeight());
 
-
-
-
-
-
-
-
     }
-
 }
